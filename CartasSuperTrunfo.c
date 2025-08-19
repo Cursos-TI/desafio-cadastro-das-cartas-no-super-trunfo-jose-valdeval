@@ -36,7 +36,7 @@ int main() {
     scanf("%c", &estado1);
 
     printf("Digite o nome da cidade: ");
-    scanf("%s", &nomeCidade1);
+    scanf("%s", nomeCidade1);
 
     printf("Digite o número correspondente a população: ");
     scanf("%d", &populacao1);
@@ -67,7 +67,7 @@ int main() {
     scanf(" %c", &estado2);
 
     printf("Digite o nome da cidade: ");
-    scanf("%s", &nomeCidade2);
+    scanf("%s", nomeCidade2);
 
     printf("Digite o número correspondente a população: ");
     scanf("%d", &populacao2);
@@ -84,24 +84,24 @@ int main() {
 
     // Saidas
     // Fluxo de saida 1
-    printf("\n\n\n\nCarta 1:\n");
+    printf("\n\n\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %c%s\n", estado1, idCarta1);
     printf("Nome da cidade: %s\n", nomeCidade1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2fKm²\n", areaTerritorio1);
     printf("PIB: %.2f bilhões de reais\n", PIB1);
-    printf("Número de pontos turísticos: %d\n\n\n\n\n", pontosTuristicos1);
+    printf("Número de pontos turísticos: %d\n\n", pontosTuristicos1);
 
     // Fluxo de saida 2
-    printf("\n\n\n\nCarta 2:\n");
+    printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %c%s\n", estado2, idCarta2);
     printf("Nome da cidade: %s\n", nomeCidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2fKm²\n", areaTerritorio2);
     printf("PIB: %.2f bilhões de reais\n", PIB2);
-    printf("Número de pontos turísticos: %d\n\n\n\n\n", pontosTuristicos2);
+    printf("Número de pontos turísticos: %d\n\n\n\n", pontosTuristicos2);
 
 
     return 0;
